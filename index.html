@@ -6,25 +6,61 @@
 </head>
 <body>
     <form action="index.html" method="post">
-        <input type="text" placeholder="Enter sometext">
+
+        <div>
+            <label for="fio">ФИО</label>
+            <input id="fio" type="text" placeholder="Глеб" name="fio">
+        </div>
+
+        <div>
+            <label>
+                Мужской <input type="radio" name="Sex" value="0">
+            </label>
+            <label>
+                Женский <input type="radio" name="Sex" value="1">
+            </label>
+            <label>
+                Не определен <input type="radio" name="Sex" value="2" checked>
+            </label>
+        </div>
+        <div>
+            <label for="city">Выберите город</label>
+            <select name="city" id="city">
+                <option value="1">Санкт-Петербург</option>
+                <option value="1">Москва</option>
+                <option value="1" selected>Зыряново</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Выберите что Вам ближе по душе</legend>
+                <ul>
+                    <li>
+                        <label>
+                            Автоматы<input type="checkbox" name="sections[]" value="1">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Взырвчатка<input type="checkbox" name="sections[]" value="2" checked>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Наркотики<input type="checkbox" name="sections[]" value="3">
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div>
+            <label for="comment">Особые пожелания</label>
+            <textarea name="comment" id="comment">123</textarea>
+        </div>
 
         <input type="radio"/>
         <input type="checkbox"/>
         <input type="submit" value="Send">
-
-        <br>
-        <br>
-
-        <input type="radio" name="Sex" value="0">
-        <input type="radio" name="Sex" value="1">
-        <input type="radio" name="Sex" value="2" checked>
-
-        <br>
-        <br>
-
-        <input type="checkbox" name="sections[]" value="1">
-        <input type="checkbox" name="sections[]" value="2" checked>
-        <input type="checkbox" name="sections[]" value="3">
 
         </form>
 </body>
