@@ -2,27 +2,28 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Изучаю Linux - Brief</title>
 </head>
 <body>
-    <form action="brief.html" method="post">
-
+    <form class="spam" action="brief.html" method="post">
+        <h1>Сам текст</h1>
         <h2>Злодейский опрос</h2>
         <a href="index.html">На главную</a>
-            <div id="intro">
-            <p><strong>АД</strong>министрация нашего ресурса просит вас поучавствовать в небольшом опросе, цель которого, выявить<br>
+            <div class="form-row" id="intro">
+            <p><strong>АД</strong>министрация нашего ресурса просит вас поучавствовать в небольшом опросе, цель которого, выявить
             недоработки в нашем сервисе, чтобы их доработать.</p>
             </div>
             <ol>
                 <li>
-                    <div>
+                    <div class="form-row">
                         <label for="credentials">Представьтесь пожалуйста:</label>
                         <input id="credentials" name="credentials" type="text" placeholder="Гнвоерк Аристархович">
                     </div>
                 </li>
                 <li>
-                    <div>
-                        <p>Выберите ваш пол, если он есть:<br></p>
+                    <div class="form-row">
+                        <p>Выберите ваш пол, если он есть:</p>
                         <label>
                             <input type="radio" name="sex" value="0">Мужской
                         </label>
@@ -35,8 +36,8 @@
                     </div>
                 </li>
                 <li>
-                    <div>
-                        <p>Каковы ваши политические убеждения:<br></p>
+                    <div class="form-row">
+                        <p>Каковы ваши политические убеждения:</p>
                         <label>
                             <input type="radio" name="polit" value="0">Анархические
                         </label>
@@ -44,12 +45,12 @@
                             <input type="radio" name="polit" value="0">Либеральные
                         </label>
                         <label>
-                            <input type="radio" name="polit" value="0" checked>Верю в реинкарнацию Сталина<br><br>
+                            <input type="radio" name="polit" value="0" checked>Верю в реинкарнацию Сталина
                         </label>
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class="form-row">
                         <label for="city">Выберите город который наиболее подходит вам:</label>
                         <select name="city" id="city">
                             <option value="0">Москва</option>
@@ -57,11 +58,11 @@
                             <option value="0">Новый Уренгой</option>
                             <option value="0">Йоханесбург</option>
                             <option value="0">Сан-Франциско</option>
-                        </select> <br><br>
+                        </select> 
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class="form-row">
                         <fieldset>
                             <legend>Выберите из этого уродливого, не отредактированного стилями fieldset'a, то что вам по душе:</legend>
                             <ul>
@@ -96,12 +97,12 @@
                                     </label>
                                 </li>
                             </ul>
-                        </fieldset><br>
+                        </fieldset>
                     </div>
                 </li>
                 <li>
-                    <div>
-                        <p>Надеюсь, что в предыдущем вопросе вы выбрали Ван Гога, если нет, то нет вам прощения. А теперь выберите самую крутую картину:<br><br></p>
+                    <div class="form-row">
+                        <p>Надеюсь, что в предыдущем вопросе вы выбрали Ван Гога, если нет, то нет вам прощения. А теперь выберите самую крутую картину:</p>
                         <label>
                             <img src="img/vg1.jpg" alt="Vangogh1"><input type="checkbox" name="sections" value="0">
                         </label>
@@ -109,18 +110,18 @@
                             <img src="img/vg2.jpg" alt="Vangogh2"><input type="checkbox" name="sections" value="1">
                         </label>
                         <label>
-                            <br><img src="img/vg3.jpg" alt="Vangogh3"><input type="checkbox" name="sections" value="2">
+                            <img src="img/vg3.jpg" alt="Vangogh3"><input type="checkbox" name="sections" value="2">
                         </label>
                         <label>
                             <img src="img/vg4.jpg" alt="Vangogh4"><input type="checkbox" name="sections" value="3">
                         </label>
-                    </div><br>
+                    </div>
                 </li>
-                <div>
+                <div class="form-row">
                     <label for="comment">Пожелайте зла нам и себе если хотите:</label>
-                    <textarea name="comment" id="comment"></textarea><br><br>
+                    <textarea name="comment" id="comment"></textarea>
                 </div>
-                <div>
+                <div class="form-row buttons-panel">
                     <input type="submit" value="Отправить злодеям">
                 </div>
             </ol>
