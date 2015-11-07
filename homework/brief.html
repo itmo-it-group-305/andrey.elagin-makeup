@@ -7,63 +7,59 @@
 </head>
 <body>
     <form class="spam" action="brief.html" method="post">
+
         <h1>Сам текст</h1>
         <h2>Злодейский опрос</h2>
+
         <a href="index.html">На главную</a>
-            <div class="form-row" id="intro">
+        <div class="form-row" id="intro">
             <p><strong>АД</strong>министрация нашего ресурса просит вас поучавствовать в небольшом опросе, цель которого, выявить
             недоработки в нашем сервисе, чтобы их доработать.</p>
-            </div>
-            <ol>
-                <li>
-                    <div class="form-row">
-                        <label for="credentials">Представьтесь пожалуйста:</label>
-                        <input id="credentials" name="credentials" type="text" placeholder="Гнвоерк Аристархович">
-                    </div>
-                </li>
-                <li>
-                    <div class="form-row">
-                        <p>Выберите ваш пол, если он есть:</p>
-                        <label>
-                            <input type="radio" name="sex" value="0">Мужской
-                        </label>
-                        <label>
-                            <input type="radio" name="sex" value="0">Женский
-                        </label>
-                        <label>
+        </div>
+        <div class="form-row">
+            <label for="credentials">Представьтесь пожалуйста:</label>
+            <input id="credentials" name="credentials" type="text" placeholder="Гнвоерк Аристархович">
+        </div>
+        <div class="form-row">
+
+            <p>Выберите ваш пол, если он есть:</p>
+
+            <label>
+                <input type="radio" name="sex" value="0">Мужской
+            </label>
+            <label>
+                <input type="radio" name="sex" value="0">Женский
+            </label>
+            <label>
                             <input type="radio" name="sex" value="0" checked>Нечто
                         </label>
-                    </div>
-                </li>
-                <li>
-                    <div class="form-row">
-                        <p>Каковы ваши политические убеждения:</p>
-                        <label>
-                            <input type="radio" name="polit" value="0">Анархические
-                        </label>
-                        <label>
-                            <input type="radio" name="polit" value="0">Либеральные
-                        </label>
-                        <label>
-                            <input type="radio" name="polit" value="0" checked>Верю в реинкарнацию Сталина
-                        </label>
-                    </div>
-                </li>
-                <li>
-                    <div class="form-row">
-                        <label for="city">Выберите город который наиболее подходит вам:</label>
-                        <select name="city" id="city">
-                            <option value="0">Москва</option>
-                            <option value="0">Нижневартовск</option>
-                            <option value="0">Новый Уренгой</option>
-                            <option value="0">Йоханесбург</option>
-                            <option value="0">Сан-Франциско</option>
-                        </select> 
-                    </div>
-                </li>
-                <li>
-                    <div class="form-row">
-                        <fieldset>
+        </div>
+        <div class="form-row">
+
+            <p>Каковы ваши политические убеждения:</p>
+
+            <label>
+                <input type="radio" name="polit" value="0">Анархические
+            </label>
+            <label>
+                <input type="radio" name="polit" value="0">Либеральные
+            </label>
+            <label>
+                <input type="radio" name="polit" value="0" checked>Верю в реинкарнацию Сталина
+            </label>
+        </div>
+        <div class="form-row">
+            <label for="city">Выберите город который наиболее подходит вам:</label>
+            <select name="city" id="city">
+                <option value="0">Москва</option>
+                <option value="0">Нижневартовск</option>
+                <option value="0">Новый Уренгой</option>
+                <option value="0">Йоханесбург</option>
+                <option value="0">Сан-Франциско</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <fieldset>
                             <legend>Выберите из этого уродливого, не отредактированного стилями fieldset'a, то что вам по душе:</legend>
                             <ul>
                                 <li>
@@ -98,10 +94,8 @@
                                 </li>
                             </ul>
                         </fieldset>
-                    </div>
-                </li>
-                <li>
-                    <div class="form-row">
+        </div>
+        <div class="form-row">
                         <p>Надеюсь, что в предыдущем вопросе вы выбрали Ван Гога, если нет, то нет вам прощения. А теперь выберите самую крутую картину:</p>
                         <label>
                             <img src="img/vg1.jpg" alt="Vangogh1"><input type="checkbox" name="sections" value="0">
@@ -116,15 +110,13 @@
                             <img src="img/vg4.jpg" alt="Vangogh4"><input type="checkbox" name="sections" value="3">
                         </label>
                     </div>
-                </li>
-                <div class="form-row">
+        <div class="form-row">
                     <label for="comment">Пожелайте зла нам и себе если хотите:</label>
                     <textarea name="comment" id="comment"></textarea>
                 </div>
-                <div class="form-row buttons-panel">
-                    <input type="submit" value="Отправить злодеям">
-                </div>
-            </ol>
-            </form>
+        <div class="form-row buttons-panel">
+            <input type="submit" value="Отправить злодеям">
+        </div>
+    </form>
 </body>
 </html>
