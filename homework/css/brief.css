@@ -1,16 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Cuprum|Ubuntu|Roboto&subset=latin,cyrillic);
 @import "style.css";
+@import "buttonAnim.css";
 
-body {
-    margin-top: 15px;
-}
 
 .sex, .polite, .city, .chose, .vangogh, .regards{
     margin-top: 30px;
-}
-
-.name, .sex:hover, .polite:hover, .city:hover, .chose:hover, .vangogh:hover, .regards:hover{
-    color: brown;
 }
 
 .polite, input[type=radio] {
@@ -50,28 +44,15 @@ body {
     background: #cacaca;
 }
 
-.sex {
-
-}
-
-.polite {
-
-}
-
-.city {
-
-}
-
 .chose {
-
+    list-style: none;
 }
 
-.vangogh {
-
-}
-
-.regards {
-
+.regards textarea {
+    width: 700px;
+    height: 200px;
+    resize: none;
+    margin-bottom: 20px;
 }
 
 select {
@@ -80,6 +61,7 @@ select {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     border: 2px dotted #888;
+    background-color: #efefef;
 }
 
 select:focus {
@@ -88,4 +70,10 @@ select:focus {
 
 fieldset {
     border: 2px dotted #888;
+    background: url(../img/Ducks.jpg) bottom right no-repeat;
 }
+
+ul {
+    list-style: none;
+}
+

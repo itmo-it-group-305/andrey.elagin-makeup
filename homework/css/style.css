@@ -23,6 +23,12 @@ body {
     float: left;
 }
 
+.text img {
+    width: 680px;
+    height: 340px;
+    margin: 20px 10px 20px 10px;
+}
+
 /*начинаем стилизовать менюху*/
 nav {
     background-color: #cdd3e6;
@@ -98,6 +104,7 @@ nav ul ul li a:hover {
 /*заканчиваем стилизовать менюху*/
 
 .social {
+    margin-top: 20px;
     float: left;
 }
 
