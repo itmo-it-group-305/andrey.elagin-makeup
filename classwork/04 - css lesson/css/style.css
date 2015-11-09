@@ -1,0 +1,33 @@
+@import url(https://necolas.github.io/normalize.css);
+@import "reset.css";
+@import url(grid.css);
+
+.wrapper {
+    /*background: #666;*/
+    /*min-width: 200px;*/
+    /*max-width: 1200px;*/
+}
+
+
+
+
+
+
+.header {
+   background: #666666;
+}
+
+.content {
+    background: #9FD468;
+
+}
+
+.sidebar {
+    background: #8d93a6;
+
+}
+
+.footer {
+    background: red;
+
+}

@@ -3,9 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.wrap {
-    min-width: 920px;
-}
+/*.wrap {*/
+    /*min-width: 920px;*/
+    /*/!*max-width: 1300px;*!/*/
+/*}*/
 
 .logo img {
     float: left;
@@ -17,10 +18,12 @@ body {
 }
 
 .content {
-    padding: 20px;
+    /*padding: 20px 20px 20px 200px;*/
     width: 700px;
-    min-width: 700px;
+    min-width: 200px;
     float: left;
+    margin-left: 200px;
+    /*clear: both;*/
 }
 
 .text img {
@@ -32,13 +35,13 @@ body {
 /*начинаем стилизовать менюху*/
 nav {
     background-color: #cdd3e6;
-    width: auto;
-    min-width: 200px;
+    width: 200px;
     text-align: left;
     float: left;
-    margin: 320px 5px 0 0;
+    margin: 320px 25px 0 0;
     position: fixed;
     display: block;
+    overflow: scroll;
 }
 
 nav ul {
@@ -104,8 +107,10 @@ nav ul ul li a:hover {
 /*заканчиваем стилизовать менюху*/
 
 .social {
+    width: 300px;
+    height: 700px;
     margin-top: 20px;
-    float: left;
+    float: right;
 }
 
 .maps {
