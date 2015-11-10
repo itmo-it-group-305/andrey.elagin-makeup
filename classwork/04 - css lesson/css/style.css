@@ -1,14 +1,11 @@
 @import url(https://necolas.github.io/normalize.css);
-@import "reset.css";
+/*@import "reset.css";*/
 @import url(grid.css);
 
-.wrapper {
-    /*background: #666;*/
-    /*min-width: 200px;*/
-    /*max-width: 1200px;*/
+
+.col-7 {
+    background: #343434;
 }
-
-
 
 
 
