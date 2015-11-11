@@ -1,31 +1,40 @@
 @import url(https://necolas.github.io/normalize.css);
-/*@import "reset.css";*/
 @import url(grid.css);
 @import url(//fonts.googleapis.com/css?family=Cuprum|Ubuntu|Roboto&subset=latin,cyrillic);
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*.wrap {*/
-    /*min-width: 920px;*/
-    /*/!*max-width: 1300px;*!/*/
-/*}*/
+.col-2 {
+    min-width: 224px;
+    position: absolute;
+}
+
+.col-3 {
+    min-width: 200px;
+    position: relative;
+    margin-left: 940px;
+}
+
+.col-6 {
+    width: 700px;
+    min-width: 400px;
+    position: absolute;
+    margin-left: 230px;
+}
 
 .logo img {
-    float: left;
-    width: 200px;
-    min-width: 200px;
-    height: 300px;
-    position: relative;
-    margin-right: 5px;
+    width: 210px;
+    height: 320px;
 }
 
 .content {
-    width: 700px;
-    min-width: 200px;
-    float: left;
-    margin: 0 20px 0 20px;
-    /*clear: both;*/
+
+}
+
+.social {
+
 }
 
 .text img {
@@ -34,15 +43,21 @@ body {
     margin: 20px 10px 20px 10px;
 }
 
+.maps {
+    width: 700px;
+    height: 450px;
+    border: none;
+}
+
 /*начинаем стилизовать менюху*/
 nav {
     background-color: #cdd3e6;
-    width: 200px;
+    width: 220px;
     text-align: left;
-    float: left;
-    margin: 320px 25px 0 0;
+    /*margin: 320px 25px 0 0;*/
     position: fixed;
     display: block;
+    z-index: 1;
     /*overflow: scroll;*/
 }
 
@@ -50,7 +65,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    width: 200px; /*мне показалось странным так задавать ширину*/
+    width: 220px; /*мне показалось странным так задавать ширину*/
     position: relative;
     /*display: inline-table;*/
 }
@@ -96,9 +111,9 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #8d93a6;
     border-left: 5px solid #71729b;
-    padding-left:20px;
-    transition:200ms;
-
+    padding-left: 20px;
+    transition: 200ms;
+    z-index: 2;
 }
 
 nav ul ul li a:hover {
@@ -107,16 +122,3 @@ nav ul ul li a:hover {
 
 }
 /*заканчиваем стилизовать менюху*/
-
-.social {
-    width: 300px;
-    height: 700px;
-    margin-top: 20px;
-    float: left;
-}
-
-.maps {
-    width: 700px;
-    height: 450px;
-    border: none;
-}
