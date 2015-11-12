@@ -1,5 +1,6 @@
 @import url(https://necolas.github.io/normalize.css);
-@import url(grid.css);
+@import "reset.css";
+@import "grid.css";
 @import url(//fonts.googleapis.com/css?family=Cuprum|Ubuntu|Roboto&subset=latin,cyrillic);
 
 body {
@@ -41,6 +42,10 @@ body {
     width: 680px;
     height: 340px;
     margin: 20px 10px 20px 10px;
+}
+
+.bread a {
+    text-decoration: none;
 }
 
 .maps {

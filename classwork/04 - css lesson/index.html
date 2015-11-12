@@ -3,44 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>БлОЛОЛОчная верстка</title>
+    <title>Сетка верстка</title>
 </head>
 <body>
-    <!--<div class="wrapper">-->
+<header>
+    <div class="wrapper">
         <div class="row">
-            <div class="col-12 header"><h1>Header</h1></div>
+            <nav>
+                <ul class="menu menu-horizontal top-menu">
+                    <li><a href="#">Новости</a> </li>
+                    <li><a href="#">История</a> </li>
+                    <li><a href="#">Факты</a> </li>
+                    <li><a href="#">Изометрия</a> </li>
+                    <li><a href="#">Не Изометрия</a> </li>
+                </ul>
+            </nav>
+
+            </div>
         </div>
+    <footer>
         <div class="row">
-            <div class="col-9 content">Content</div>
-            <div class="col-3 sidebar">Sidebar</div>
+            <div class="col-6">
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <label class="col-2" for="question_name">Имя:</label>
+                        <div class="col-10">
+                            <input class="form-control" id="question_name" name="question[name]" type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label class="col-10" for="question_text">Имя:</label>
+                        <div class="col-10">
+                            <input class="form-control" id="question_text" name="question[text]" type="text">
+                        </div>
+                    </div>
+                    <div class="for-row">
+                        <div class="col-10 offset-2">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="col-7">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda corporis deleniti dignissimos
-                dolorem doloremque esse, ex fugit ipsum iure molestias nemo non quaerat recusandae reprehenderit
-                sapiente sed vitae voluptatem.</p>
+    </footer>
+    </div>
 
-            <p>Ab aliquam, atque aut culpa cumque debitis doloremque dolores, doloribus ea earum eius fuga id illum
-                impedit iusto laudantium magni nemo nisi nobis nulla obcaecati officiis, quia sed veniam veritatis.</p>
-
-            <p>Expedita inventore, porro! Atque corporis illo itaque necessitatibus perferendis veritatis. Ab aperiam
-                architecto deserunt, ducimus, et eum eveniet facilis in optio quidem quos totam. Accusantium assumenda
-                autem excepturi laudantium quidem.</p>
-
-            <p>Incidunt, laborum non! Ab corporis dolor doloribus eius pariatur ratione rerum sapiente voluptas?
-                Architecto aspernatur consequuntur doloremque enim mollitia, praesentium totam ut. Animi architecto,
-                dolorum ducimus esse excepturi officiis placeat.</p>
-
-            <p>Assumenda commodi impedit nesciunt nostrum qui quibusdam, temporibus? Accusamus alias aspernatur at
-                beatae ex id ipsum magni, nobis provident, quasi quia quis quisquam sint soluta veniam. Fugiat officiis
-                optio porro!</p>
-
-            <p>Assumenda autem consequuntur cupiditate, dolorem et eveniet harum hic iusto laboriosam laudantium
-                molestias mollitia, natus odit optio perferendis quasi, ratione similique sint sit soluta! Atque
-                cupiditate eius eveniet nostrum porro.</p>
+    <div class="overlay">
+        <div class="modal-window">
+            <p>This is modal window</p>
         </div>
-        <div class="row">
-            <div class="col-12 footer">Footer</div>
-        </div>
-    <!--</div>-->
+    </div>
+</header>
 </body>
 </html>
