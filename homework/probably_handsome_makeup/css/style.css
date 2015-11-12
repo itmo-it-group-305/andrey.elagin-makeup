@@ -61,7 +61,7 @@ nav {
     text-align: left;
     /*margin: 320px 25px 0 0;*/
     position: fixed;
-    display: block;
+    /*display: block;*/
     z-index: 1;
     /*overflow: scroll;*/
 }
@@ -101,7 +101,6 @@ nav ul ul li a:hover {
 
 nav ul li:hover > ul {
     display: block;
-
 }
 
 nav ul li a {
@@ -126,4 +125,5 @@ nav ul ul li a:hover {
     border-left: 5px solid #71729b;
 
 }
-/*заканчиваем стилизовать менюху*/
+заканчиваем стилизовать менюху
+

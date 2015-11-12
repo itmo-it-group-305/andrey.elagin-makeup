@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One|Stalinist+One&subset=latin,cyrillic);
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import "reset.css";
+@import "grid.css";
+@import "menu.css";
+
+
+body {
+    background: #000;
+    color: #fff;
+    line-height: 1.5;
+    /*ширина body по умолчанию 16px*/
+}
+
+img {
+    width: 100%;
+
+}
+
+h2 {
+    font: 1.45em 'Russo One', cursive;
+    color: #478e22;
+    text-align: center;
+    padding: 0.75em;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 75em;
+}
+
+.back {
+    background:  url("../img/eeHXlzw.jpg") center  no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-height: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.bloodText {
+    padding-top: 8em;
+}
+
+/*.overlay {*/
+/*background: rgba(124, 212, 38, 0.71);*/
+/*position:fixed;*/
+/*height: 100%;*/
+/*width: 100%;*/
+/*top: 0;*/
+/*left: 0;*/
+/*/!*text-align: center;*!/*/
+/*}*/
+
+/*.modal-window {*/
+/*background: #cdd3e6;*/
+/*color: #000;*/
+/*padding: 3.125em;*/
+/*width: 50%;*/
+/*margin: 0 auto;*/
+/*}*/

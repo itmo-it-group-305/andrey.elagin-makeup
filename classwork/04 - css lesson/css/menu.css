@@ -1,6 +1,6 @@
 .menu li {
-    margin-top: 0.625em;
     margin-bottom: 0.625em;  /*10px*/
+    margin-top: 0.625em;
 }
 
 .menu a {
@@ -12,7 +12,7 @@
 .menu-horizontal {
     display: table;
     width: 100%;
-
+    table-layout: fixed;
 }
 
 .menu-horizontal li {
