@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/brief.css">
+    <title>Изучаю Linux - Brief</title>
+</head>
+<body>
+    <div class="leftbar">
+        <a class="logo" href="../index.html"><img src="../img/tux.png" alt="На главную"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">На главную</a></li>
+                <li><a href="html">История</a></li>
+                <li><a href="ml">Дистрибутивы</a></li>
+                <li><a href=".html">Терминал</a></li>
+                <li><a href="/brief.html">Опрос</a></li>
+                <li><a href="#">Юмор и досуг</a>
+                    <ul>
+                        <li><a href="../offtop/drugs.html">Наркотики</a></li>
+                        <li><a href="../offtop/nuclear.html">Ядерное оружие</a></li>
+                        <li><a href="../offtop/cookies.html">Печеньки</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <form class="spam" action="brief.html" method="post">
+
+        <h2>Злодейский опрос</h2>
+
+            <p><span class="HELL">АД</span>министрация нашего ресурса просит вас поучавствовать в небольшом опросе, цель которого, выявить
+            недоработки, для того, чтобы никогда их не дорабатывать.</p>
+
+        <div class="name">
+            <label for="credentials">Представьтесь пожалуйста:</label>
+            <input id="credentials" name="credentials" type="text" placeholder="Гнвоерк Аристархович">
+        </div>
+        <div class="sex">
+
+            <p>Выберите ваш пол, если он есть:</p>
+
+            <label>
+                <input type="radio" name="sex" value="0">Мужской
+            </label>
+            <label>
+                <input type="radio" name="sex" value="1">Женский
+            </label>
+            <label>
+                <input type="radio" name="sex" value="2" checked>Нечто
+            </label>
+        </div>
+        <div class="polite">
+
+            <p>Каковы ваши политические убеждения:</p>
+
+            <label>
+                <input type="radio" name="polit" value="0">Анархические
+            </label>
+            <label>
+                <input type="radio" name="polit" value="1">Либеральные
+            </label>
+            <label>
+                <input type="radio" name="polit" value="2" checked>Верю в реинкарнацию Сталина
+            </label>
+        </div>
+        <div class="city">
+            <label for="city">Выберите город который наиболее подходит вам:</label>
+            <select name="city" id="city">
+                <option value="0">Москва</option>
+                <option value="0">Нижневартовск</option>
+                <option value="0">Новый Уренгой</option>
+                <option value="0">Йоханесбург</option>
+                <option value="0">Сан-Франциско</option>
+            </select>
+        </div>
+        <div class="chose">
+            <fieldset>
+                <legend>Выберите то что вам по душе:</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox" name="sections" value="0">
+                        <label for="checkbox">Автоматы</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox2" name="sections" value="1">
+                        <label for="checkbox2">Взрывчатка</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox3" name="sections" value="2">
+                        <label for="checkbox3">Наркотики</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox4" name="sections" value="3">
+                        <label for="checkbox4">Розовый понь</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox5" name="sections" value="4">
+                        <label for="checkbox5">Ван Гог</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox6" name="sections" value="5">
+                        <label for="checkbox6">Уточки</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <!--<div class="vangogh">-->
+            <!--<p>Надеюсь, что в предыдущем вопросе вы выбрали Ван Гога, если нет, то нет вам прощения. А теперь выберите самую крутую картину:</p>-->
+            <!--<label>-->
+                <!--<img src="../img/vg1.jpg" alt="Vangogh1"><input type="checkbox" name="sections" value="0">-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<img src="../img/vg2.jpg" alt="Vangogh2"><input type="checkbox" name="sections" value="1">-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<img src="../img/vg3.jpg" alt="Vangogh3"><input type="checkbox" name="sections" value="2">-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<img src="../img/vg4.jpg" alt="Vangogh4"><input type="checkbox" name="sections" value="3">-->
+            <!--</label>-->
+        <!--</div>-->
+        <div class="regards">
+            <label for="comment">Пожелайте зла нам и себе если хотите:</label>
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+        <div class="form-row buttons-panel">
+            <input type="submit" value="Отправить злодеям">
+        </div>
+    </form>
+</body>
+</html>
