@@ -14,7 +14,7 @@ body {
 
 img {
     width: 100%;
-
+    height: auto;
 }
 
 h2 {
@@ -47,6 +47,7 @@ h2 {
     text-align: center;
 }
 
+
 /*.overlay {*/
 /*background: rgba(124, 212, 38, 0.71);*/
 /*position:fixed;*/
@@ -63,4 +64,5 @@ h2 {
 /*padding: 3.125em;*/
 /*width: 50%;*/
 /*margin: 0 auto;*/
-/*}*/
+
+
