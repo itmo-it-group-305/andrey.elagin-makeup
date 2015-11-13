@@ -39,7 +39,12 @@ h2 {
 }
 
 .bloodText {
-    padding-top: 8em;
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+
+.destiny {
+    text-align: center;
 }
 
 /*.overlay {*/
