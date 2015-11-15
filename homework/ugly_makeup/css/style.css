@@ -51,7 +51,7 @@ nav ul {
     margin: 0;
     list-style-type: none;
     width: 200px; /*мне показалось странным так задавать ширину*/
-    position: relative;
+    /*position: relative;*/
     /*display: inline-table;*/
 }
 
@@ -59,8 +59,8 @@ nav ul ul {
     display: none;
     position: absolute;
     background-color: #cdd3e6;
-    /*left: 100%;*/
-    /*top: 80%;*/
+    left: 100%;
+    top: 80%;
 }
 
 nav ul li {

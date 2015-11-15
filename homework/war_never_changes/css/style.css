@@ -3,12 +3,15 @@
 @import "reset.css";
 @import "grid.css";
 @import "menu.css";
+@import "modalWindow.css";
 
 
 body {
-    background: #000;
-    color: #fff;
+    background: url(../img/34.jpg) 100%;
+    background-size: 100%;
+    color: #2e8813;
     line-height: 1.5;
+    font: 1em 'Russo One', cursive;
     /*ширина body по умолчанию 16px*/
 }
 
@@ -24,15 +27,42 @@ h2 {
     padding: 0.75em;
 }
 
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+article {
+    font: 0.95em 'Russo One', cursive;
+    text-align: justify;
+}
+
+article p {
+    margin-bottom: 0.5em;
+}
+
+.articleBody {
+    margin-bottom: 2em;
+    border-bottom: 0.1em solid #2e8813;
+    padding: 0 0 1em 0;
+}
+
 .row {
     margin: 0 auto;
     max-width: 75em;
 }
 
+.wrapBack {
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    max-width: 62em;
+}
+
 .back {
     background:  url("../img/eeHXlzw.jpg") center  no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 30em;
     max-height: 100%;
     text-align: center;
     margin-bottom: 4em;
@@ -48,19 +78,21 @@ h2 {
 }
 
 /*.overlay {*/
-/*background: rgba(124, 212, 38, 0.71);*/
-/*position:fixed;*/
-/*height: 100%;*/
-/*width: 100%;*/
-/*top: 0;*/
-/*left: 0;*/
-/*/!*text-align: center;*!/*/
+    /*background: rgba(3, 6, 1, 0.84);*/
+    /*position: fixed;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*/!*text-align: center;*!/*/
 /*}*/
 
 /*.modal-window {*/
-/*background: #cdd3e6;*/
-/*color: #000;*/
-/*padding: 3.125em;*/
-/*width: 50%;*/
-/*margin: 0 auto;*/
+    /*/!*vertical-align: middle;*!/*/
+    /*background: #cdd3e6;*/
+    /*color: #000;*/
+    /*padding: 3.125em;*/
+    /*width: 50%;*/
+    /*margin: 20% 25% 25% 25%;*/
 /*}*/
+

@@ -1,8 +1,5 @@
-
-/* Контейнер */
+/*Код стырил. В процессе видоизменил и разобрался*/
 .modal {
-
-    /* Слой перекрытия */
     position: fixed;
     top: 0;
     left: 0;
@@ -10,31 +7,34 @@
     bottom: 0;
     background: rgba(0,0,0,0.5);
     z-index: 10000;
-
     transition: opacity 500ms ease-in;
-    /* Скрываем изначально */
     opacity: 0;
     pointer-events: none;
+    color: #2e8813;
+
 }
 
-/* Показываем модальное окно */
+.button {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font: 1.45em 'Russo One', cursive;
+}
+
+
 .modal:target {
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: visible;
 }
 
-/* Содержание */
 .modal > div {
     width: 300px;
-    background: #ffffff;
+    background: #232323;
     position: relative;
-    margin: 10% auto;
-
-
+    margin: 20% auto;
     padding: 30px;
     border-radius: 7px;
     box-shadow: 0 3px 20px rgba(0,0,0,0.9);
-    text-shadow: 0 1px 0 #fff;
 }
 
 .modal h2 {
@@ -42,8 +42,6 @@
     padding: 0 0 20px;
 }
 
-
-/* Ссылка на кнопку Закрыть */
 .modal a[href="#close"] {
     position: absolute;
     right: 0;
@@ -51,30 +49,26 @@
     color: transparent;
 }
 
-/* Создаем кнопку Закрыть */
 .modal a[href="#close"]:after {
     content: 'X';
     display: block;
-
-    /* Позиционируем */
     position: absolute;
     right: -10px;
     top: -10px;
     width: 20px;
     padding: 1px 1px 1px 2px;
 
-    /* Стили */
     text-decoration: none;
     text-shadow: none;
     text-align: center;
     font-weight: bold;
     background: #000;
-    color: #ffffff;
-    border: 3px solid #ffffff;
+    color: #2e8813;
+    border: 3px solid #2e8813;
     border-radius: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
- .modal_title {
+.modal_title {
     display: block;
     text-align: center;
     font-size: 22pt;
