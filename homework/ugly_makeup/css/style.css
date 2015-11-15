@@ -59,8 +59,8 @@ nav ul ul {
     display: none;
     position: absolute;
     background-color: #cdd3e6;
-    left: 100%;
-    top: 80%;
+    /*left: 100%;*/
+    /*top: 80%;*/
 }
 
 nav ul li {
